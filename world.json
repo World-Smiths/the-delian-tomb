@@ -1,15 +1,30 @@
 {
   "name": "the-delian-tomb",
   "title": "The Delian Tomb",
-  "description": "<p>The Delian Tomb is a low-level one-shot introduction adventure featuring a tomb of an ancient order of knights infested by goblins.</p>\n<p><em>This adventure was originally outlined in <a href=\"https://www.youtube.com/watch?v=zTD2RZz6mlo\">Matt Colville's first running the game video</a>.</em></p>\n<hr />\n<blockquote><em><strong>System:</strong> D&amp;D 5E<strong><br /></strong></em> <em><strong>Starting Level:</strong> 1st-3rd<strong><br /></strong></em><em><strong>Length:</strong> Short One Shot (2-3 hours)<br /></em><strong style=\"font-style: normal;\">Language: </strong>English</blockquote>\n<hr />\n<p>World Smiths is a community of world builders creating high-quality world content for Foundry VTT.</p>\n<div style=\"display: flex; gap: 1em;\"><a style=\"flex: 100%;\" href=\"https://world-smiths.github.io/page/\" target=\"_blank\" rel=\"noopener\"><button type=\"button\">Our Projects</button></a><a style=\"flex: 100%;\" href=\"https://discord.gg/2YCFD8fxG7\" target=\"_blank\" rel=\"noopener\"><button type=\"button\">Our Discord</button></a></div>",
-  "author": "World Smiths",
-  "authors": [],
-  "flags": {},
+  "description": "<p>The Delian Tomb is a low-level one-shot introduction adventure featuring a tomb of an ancient order of knights infested by goblins.</p>\n<p><em>This adventure was originally outlined in <a href=\"https://www.youtube.com/watch?v=zTD2RZz6mlo\">Matt Colville's first running the game video</a>.</em></p>\n<hr />\n<blockquote><em><strong>System:</strong> D&amp;D 5E<strong><br /></strong></em> <em><strong>Starting Level:</strong> 1st-3rd<strong><br /></strong></em><em><strong>Length:</strong> Short One Shot (2-3 hours)<br /></em><strong style=\"font-style: normal;\">Language: </strong>English</blockquote>\n<hr />\n<p>World Smiths is a community of world builders creating high-quality world content for Foundry VTT.</p>\n<div style=\"display: flex; gap: 1em;\"><a style=\"flex: 100%;\" href=\"https://world-smiths.github.io/page/\"><button type=\"button\">Our Projects</button></a><a style=\"flex: 100%;\" href=\"https://discord.gg/2YCFD8fxG7\"><button type=\"button\">Our Discord</button></a></div>",
   "version": "0.1.0",
-  "minimumCoreVersion": "0.8.9",
-  "scripts": [],
+  "author": "World Smiths",
+  "authors": [
+    {
+      "name": "World Smiths",
+      "url": "https://world-smiths.github.io/page"
+    }
+  ],
+  "url": "https://world-smiths.github.io/page/main.html",
+  "license": "https://raw.githubusercontent.com/World-Smiths/the-delian-tomb/main/LICENSE.md",
+  "readme": "https://raw.githubusercontent.com/World-Smiths/the-delian-tomb/main/README.md",
+  "bugs": "https://discord.gg/2YCFD8fxG7",
+  "changelog": "https://raw.githubusercontent.com/World-Smiths/the-delian-tomb/main/CHANGELOG.md",
+  "flags": {
+    "allowBugReporter": true
+  },
+  "scripts": [
+    "scripts/world.js"
+  ],
   "esmodules": [],
-  "styles": [],
+  "styles": [
+    "styles/ws.css"
+  ],
   "languages": [],
   "packs": [
     {
@@ -76,11 +91,20 @@
   "system": "dnd5e",
   "dependencies": [],
   "socket": false,
+  "manifest": "https://raw.githubusercontent.com/World-Smiths/the-delian-tomb/main/world.json",
+  "download": "https://raw.githubusercontent.com/World-Smiths/the-delian-tomb/main/package.zip",
   "protected": false,
-  "background": "worlds/the-delian-tomb/scenes/backgrounds/start.webp",
+  "background": "worlds/the-delian-tomb/scenes/backgrounds/landing.webp",
   "coreVersion": "9.238",
-  "nextSession": null,
   "resetKeys": false,
   "safeMode": false,
-  "systemVersion": "1.5.6"
+  "nextSession": null,
+  "systemVersion": "1.5.6",
+  "manifestPlusVersion": "1.2.0",
+  "media": [
+    {
+      "type": "cover",
+      "url": "https://raw.githubusercontent.com/World-Smiths/the-delian-tomb/main/scenes/backgrounds/landing.webp"
+    }
+  ]
 }
