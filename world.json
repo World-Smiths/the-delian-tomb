@@ -30,7 +30,7 @@
   "system": "dnd5e",
   "dependencies": [],
   "manifest": "https://raw.githubusercontent.com/World-Smiths/the-delian-tomb/main/world.json",
-  "download": "https://raw.githubusercontent.com/World-Smiths/the-delian-tomb/main/package.zip",
+  "download": "https://raw.githubusercontent.com/World-Smiths/the-delian-tomb/main/world.zip",
   "background": "worlds/the-delian-tomb/scenes/backgrounds/landing.webp",
   "coreVersion": "9.242",
   "nextSession": null,
