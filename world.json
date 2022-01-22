@@ -32,11 +32,11 @@
   "manifest": "https://raw.githubusercontent.com/World-Smiths/the-delian-tomb/main/world.json",
   "download": "https://raw.githubusercontent.com/World-Smiths/the-delian-tomb/main/package.zip",
   "background": "worlds/the-delian-tomb/scenes/backgrounds/landing.webp",
-  "coreVersion": "9.238",
+  "coreVersion": "9.242",
   "nextSession": null,
   "resetKeys": false,
   "safeMode": false,
-  "systemVersion": "1.5.6",
+  "systemVersion": "1.5.7",
   "manifestPlusVersion": "1.2.0",
   "media": [
     {
