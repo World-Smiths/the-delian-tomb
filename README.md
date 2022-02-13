@@ -5,11 +5,11 @@
 A low-level one shot adventure for introducing new players to D&D. This adventure was originally outlined in [Matt Colville's first Running the Game video](https://www.youtube.com/watch?v=zTD2RZz6mlo).
 
 > **System:** D&D 5e
-> 
+>
 > **Starting Level:** 1st to 3rd
-> 
+>
 > **Length:** One-Shot
-> 
+>
 > **Language:** English
 
 ## Synopsis
