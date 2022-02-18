@@ -1,5 +1,5 @@
 {
-  "name": "the-delian-tomb",
+  "name": "the-delian-tomb-module",
   "title": "The Delian Tomb",
   "description": "<p>The Delian Tomb is a low-level one-shot introduction adventure featuring a tomb of an ancient order of knights infested by goblins.</p>\n<p><em>This adventure was originally outlined in <a href=\"https://www.youtube.com/watch?v=zTD2RZz6mlo\">Matt Colville's first running the game video</a>.</em></p>\n<hr />\n<blockquote><em><strong>System:</strong> D&amp;D 5E<strong><br /></strong></em> <em><strong>Starting Level:</strong> 1st-3rd<strong><br /></strong></em><em><strong>Length:</strong> Short One Shot (2-3 hours)<br /></em><strong style=\"font-style: normal;\">Language: </strong>English</blockquote>\n<hr />\n<p>World Smiths is a community of world builders creating high-quality world content for Foundry VTT.</p>\n<div style=\"display: flex; gap: 1em;\"><a style=\"flex: 100%;\" href=\"https://world-smiths.github.io/page/\"><button type=\"button\">Our Projects</button></a><a style=\"flex: 100%;\" href=\"https://discord.gg/2YCFD8fxG7\"><button type=\"button\">Our Discord</button></a></div>",
   "author": "World Smiths",
@@ -20,15 +20,69 @@
   "version": "1.0.0",
   "scripts": [],
   "esmodules": [
-    "scripts/world.js"
+    "scripts/module.js"
   ],
   "styles": [
     "styles/ws.css"
   ],
   "languages": [],
-  "packs": [],
+  "packs": [
+    {
+      "name": "actors",
+      "label": "The Delian Tomb",
+      "path": "packs/actors.db",
+      "entity": "Actor",
+      "type": "Actor",
+      "system": "dnd5e"
+    },
+    {
+      "name": "items",
+      "label": "The Delian Tomb",
+      "path": "packs/items.db",
+      "entity": "Item",
+      "type": "Item",
+      "system": "dnd5e"
+    },
+    {
+      "name": "journals",
+      "label": "The Delian Tomb",
+      "path": "packs/journal.db",
+      "entity": "JournalEntry",
+      "type": "JournalEntry",
+      "system": "dnd5e"
+    },
+    {
+      "name": "playlists",
+      "label": "The Delian Tomb",
+      "path": "packs/playlists.db",
+      "entity": "Playlist",
+      "type:": "Playlist",
+      "system": "dnd5e"
+    },
+    {
+      "name": "tables",
+      "label": "The Delian Tomb",
+      "path": "packs/tables.db",
+      "entity": "RollTable",
+      "type": "RollTable",
+      "system": "dnd5e"
+    },
+    {
+      "name": "scenes",
+      "label": "The Delian Tomb",
+      "path": "packs/scenes.db",
+      "entity": "Scene",
+      "type": "Scene",
+      "system": "dnd5e"
+    }
+  ],
   "system": "dnd5e",
-  "dependencies": [],
+  "dependencies": [
+    {
+      "name": "scene-packer",
+      "type": "module"
+    }
+  ],
   "socket": false,
   "manifest": "https://raw.githubusercontent.com/World-Smiths/the-delian-tomb/main/world.json",
   "download": "https://raw.githubusercontent.com/World-Smiths/the-delian-tomb/main/world.zip",
