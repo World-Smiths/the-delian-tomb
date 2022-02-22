@@ -25,6 +25,3 @@ users.db
 # Not used in this world database files
 macros.db
 cards.db
-
-# Not finished
-packs/
