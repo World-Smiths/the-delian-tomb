@@ -41,7 +41,7 @@
      * Set to the following to disable:
      *   const journalPacks = [];
      */
-    const journalPacks = ["the-delian-tomb-module.journal"];
+    const journalPacks = ["the-delian-tomb-module.journals"];
     /**
      * macroPacks is a list of compendium packs to look in for Macros by name (in prioritised order).
      * The first entry here assumes that you have a Macro pack in your module with the "name" of "macros".
