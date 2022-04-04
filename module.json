@@ -44,7 +44,7 @@
       "system": "dnd5e"
     },
     {
-      "name": "journals",
+      "name": "journal",
       "label": "The Delian Tomb",
       "path": "packs/journal.db",
       "entity": "JournalEntry",
