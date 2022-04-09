@@ -34,7 +34,7 @@
   "download": "https://raw.githubusercontent.com/World-Smiths/the-delian-tomb/main/world.zip",
   "protected": false,
   "background": "worlds/the-delian-tomb/scenes/backgrounds/landing.webp",
-  "coreVersion": "9.249",
+  "coreVersion": "9.266",
   "resetKeys": false,
   "safeMode": false,
   "systemVersion": "1.5.7",
