@@ -33,10 +33,26 @@ Want to contribute to this world or similar projects?
 
 ## Credits
 
-TODO
-Landing page art by IanM32#6758
+**Map of the Tomb:** from [Christian Zeuch](https://czrpg.com/) and licensed under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1) with the condition that it is not sold separately from this product.
+
+**Adventure Text:** Adapted from this [GMBinder Document](https://www.gmbinder.com/share/-L_0WX-KKXsZA22VHr5j) by blake (@Doctor\_Paxmor#1312) with his express written permission for me to "\[f\]eel free to utilize it as \[I\] like".
+
+**Intellectual Property:** This product was inspired by [Matt Colville's first Running the Game video](https://www.youtube.com/watch?v=zTD2RZz6mlo). This is used with express written permission from [MCDM Productions](https://www.mcdmproductions.com/) to distribute under [CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/).
+
+**Landing Page art:** Created by IanM32#6758 and used with express permission.
+
+**Fire sounds:** "[Little fire.ogg](https://freesound.org/people/Glaneur%20de%20sons/sounds/29727/)" by Glaneur de sons, [CC BY 3.0](https://creativecommons.org/licenses/by/3.0), from [freesound.org](https://www.freesound.org/people/Glaneur%20de%20sons/sounds/29727/), no modifications
+
+**Tomb Ambiance:** "[Torchlit Dungeon](https://michaelghelfi.bandcamp.com/track/torchlit-dungeon-4)" from [RPG Ambiences Vol. 3 (Short loops)](https://michaelghelfi.bandcamp.com/album/rpg-ambiences-vol-3-short-loops) by Michael Ghelfi ([YouTube](https://www.youtube.com/user/MichaelGhelfi)/[Patreon](https://www.patreon.com/MichaelGhelfi)) used with written permission.
+
+**Stone Door Opening/Closing:** "[concrete blocks moving2.wav](https://freesound.org/people/FreqMan/sounds/25846/)" by FreqMan, [CC BY 3.0](https://creativecommons.org/licenses/by/3.0), from [freesound.org](https://www.freesound.org/people/Glaneur%20de%20sons/sounds/29727/), converted to .ogg
+
+**Torch Sounds:** "[Fire\_Crackle\_1.wav](https://freesound.org/people/KieranKeegan/sounds/422742/)" by KieranKeegan, [CC BY 3.0](https://creativecommons.org/licenses/by/3.0), from [freesound.org](https://www.freesound.org/people/Glaneur%20de%20sons/sounds/29727/), converted to .ogg
+
+**Landing page music:** \[Medieval Tavern\] Tavern Loop One by Alexander Nakarada ([www.serpentsoundstudios.com](http://www.serpentsoundstudios.com)), licensed under [Creative Commons BY Attribution 4.0 License](http://creativecommons.org/licenses/by/4.0/), converted to .ogg and added fadein/fadeout
 
 ## License
 
-TODO
+[The Delian Tomb](https://github.com/World-Smiths/the-delian-tomb) by [World Smiths](https://world-smiths.github.io/page/) is licensed under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/), but express written permission must be obtained for redistribution from the right holders described in the Credits section above.
+
 The software component of this world is distributed under the [MIT](./LICENSE) license.
