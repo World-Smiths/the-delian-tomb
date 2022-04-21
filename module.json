@@ -9,7 +9,7 @@
       "url": "https://world-smiths.github.io/page"
     }
   ],
-  "url": "https://world-smiths.github.io/page/main.html",
+  "url": "This is auto replaced",
   "license": "https://raw.githubusercontent.com/World-Smiths/the-delian-tomb/main/LICENSE.md",
   "readme": "https://raw.githubusercontent.com/World-Smiths/the-delian-tomb/main/README.md",
   "bugs": "https://discord.gg/2YCFD8fxG7",
@@ -17,7 +17,7 @@
   "flags": {
     "allowBugReporter": true
   },
-  "version": "1.0.0",
+  "version": "This is auto replaced",
   "minimumCoreVersion": "0.7.10",
   "compatibleCoreVersion": 10,
   "scripts": [],
@@ -85,8 +85,8 @@
       "type": "module"
     }
   ],
-  "manifest": "https://raw.githubusercontent.com/World-Smiths/the-delian-tomb/main/world.json",
-  "download": "https://raw.githubusercontent.com/World-Smiths/the-delian-tomb/main/world.zip",
+  "manifest": "This is auto replaced",
+  "download": "This is auto replaced",
   "manifestPlusVersion": "1.2.0",
   "media": [
     {
