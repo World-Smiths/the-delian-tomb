@@ -18,6 +18,8 @@
     "allowBugReporter": true
   },
   "version": "1.0.0",
+  "minimumCoreVersion": "0.7.10",
+  "compatibleCoreVersion": 10,
   "scripts": [],
   "esmodules": [
     "scripts/module.js"
@@ -83,15 +85,8 @@
       "type": "module"
     }
   ],
-  "socket": false,
   "manifest": "https://raw.githubusercontent.com/World-Smiths/the-delian-tomb/main/world.json",
   "download": "https://raw.githubusercontent.com/World-Smiths/the-delian-tomb/main/world.zip",
-  "protected": false,
-  "background": "worlds/the-delian-tomb/scenes/backgrounds/landing.webp",
-  "coreVersion": "9.242",
-  "resetKeys": false,
-  "safeMode": false,
-  "systemVersion": "1.5.7",
   "manifestPlusVersion": "1.2.0",
   "media": [
     {

@@ -18,6 +18,8 @@
     "allowBugReporter": true
   },
   "version": "1.0.0",
+  "minimumCoreVersion": "0.7.10",
+  "compatibleCoreVersion": 10,
   "scripts": [],
   "esmodules": [
     "scripts/world.js"
