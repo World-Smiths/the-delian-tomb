@@ -2,7 +2,7 @@
 
 ![Version](https://img.shields.io/github/v/tag/World-Smiths/the-delian-tomb?label=Version&style=flat-square&color=2577a1) ![Latest Release Download Count](https://img.shields.io/github/downloads/World-Smiths/the-delian-tomb/latest/world.zip?label=Downloads&style=flat-square&color=9b43a8) ![Supported Foundry Versions](https://img.shields.io/endpoint?url=https://foundryshields.com/version?url=https://raw.githubusercontent.com/World-Smiths/the-delian-tomb/main/world.json&style=flat-square&color=ff6400) [![Discord Server](https://img.shields.io/badge/-Discord-%232c2f33?style=flat-square&logo=discord)](https://discord.gg/2YCFD8fxG7)
 
-A low-level one shot adventure for introducing new players to D&D. This adventure was originally outlined in [Matt Colville's first Running the Game video](https://www.youtube.com/watch?v=zTD2RZz6mlo).
+A low-level one shot adventure for introducing new players to D&D. This adventure was originally outlined in [Matt Colville's first “Running the Game” video](https://www.youtube.com/watch?v=zTD2RZz6mlo).
 
 > **System:** D&D 5e
 >
@@ -37,7 +37,7 @@ Want to contribute to this world or similar projects?
 
 **Adventure Text:** Adapted from this [GMBinder Document](https://www.gmbinder.com/share/-L_0WX-KKXsZA22VHr5j) by blake (@Doctor\_Paxmor#1312) with his express written permission for me to "\[f\]eel free to utilize it as \[I\] like".
 
-**Intellectual Property:** This product was inspired by [Matt Colville's first Running the Game video](https://www.youtube.com/watch?v=zTD2RZz6mlo). This is used with express written permission from [MCDM Productions](https://www.mcdmproductions.com/) to distribute under [CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/).
+**Intellectual Property:** This product was inspired by [Matt Colville's first “Running the Game” video](https://www.youtube.com/watch?v=zTD2RZz6mlo). This is used with express written permission from [MCDM Productions](https://www.mcdmproductions.com/) to distribute under [CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/).
 
 **Landing Page art:** Created by IanM32#6758 and used with express permission.
 
