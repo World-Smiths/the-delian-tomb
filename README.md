@@ -53,6 +53,8 @@ Want to contribute to this world or similar projects?
 
 ## License
 
-[The Delian Tomb](https://github.com/World-Smiths/the-delian-tomb) by [World Smiths](https://world-smiths.github.io/page/) is licensed under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/), but express written permission must be obtained for redistribution from the right holders described in the Credits section above.
+Copyright © 2022 World Smiths. All Rights Reserved. 
+
+[The Delian Tomb](https://github.com/World-Smiths/the-delian-tomb) by [World Smiths](https://world-smiths.github.io/page/).
 
 The software component of this world is distributed under the [MIT](./LICENSE) license.
