@@ -27,10 +27,10 @@
   "manifest": "This is auto replaced",
   "download": "This is auto replaced",
   "background": "worlds/the-delian-tomb/scenes/backgrounds/landing.webp",
-  "coreVersion": "10.284",
+  "coreVersion": "10.290",
   "resetKeys": false,
   "safeMode": false,
-  "systemVersion": "2.0.2",
+  "systemVersion": "2.0.3",
   "media": [
     {
       "type": "cover",
@@ -42,6 +42,6 @@
   "id": "the-delian-tomb",
   "compatibility": {
     "minimum": "10",
-    "verified": "10.284"
+    "verified": "10.290"
   }
 }
