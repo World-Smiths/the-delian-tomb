@@ -1,7 +1,9 @@
 const ID = "ws";
 
-const id = "the-sky-isles";
-const title = "The Sky Isles";
+const id = "the-delian-tomb";
+const title = "The Delian Tomb";
+const tourTitle = "Importing a World adventure";
+const tourDescription = "This Tour will guide you through importing World Smiths's content.";
 const getPackage = () => game.modules.get(id)?.active ? id : "world";
 
 // Logo
@@ -58,7 +60,7 @@ const ADVENTURE = {
                     title,
                     background: `modules/${id}/scenes/backgrounds/login.webp`,
                     nextSession: null,
-                    description: "Explore this stunning yet perilous grove, home to ravenous harpies, vicious lizardfolk, and unholy undead. Explore and discover this region&rsquo;s secret and restore the balance of nature.",
+                    description: game.modules.get(id).description,
                     id: game.world.id,
                     action: "editWorld"
                 }),
@@ -126,8 +128,6 @@ class ImportTour extends Tour {
     }
 }
 
-const tourDescription = "This Tour will guide you through importing World Smiths's Amazing Encounters & Places content.";
-
 Hooks.on("setup", () => {
     game.settings.register(ID, "importTour", {
         scope: "world",
@@ -137,7 +137,7 @@ Hooks.on("setup", () => {
     });
 
     game.tours.register(ID, "import", new ImportTour({
-        title: "Importing an Amazing Encounters & Places adventure",
+        title: tourTitle,
         description: tourDescription,
         restricted: true,
         steps: [
