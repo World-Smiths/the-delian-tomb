@@ -27,10 +27,6 @@ Want to contribute to this world or similar projects?
 
 [Join the World Smiths Discord community](https://discord.gg/2YCFD8fxG7)
 
-## Dependencies
-
-* [Scene Packer](https://foundryvtt.com/packages/scene-packer) is used in the module version to unpack the compendiums, provide with folder structure in the Sidebar, and take care of re-linking of Documents.
-
 ## Credits
 
 **Map of the Tomb:** from [Christian Zeuch](https://czrpg.com/) and licensed under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1) with the condition that it is not sold separately from this product.
@@ -56,5 +52,3 @@ Want to contribute to this world or similar projects?
 Copyright © 2022 World Smiths. All Rights Reserved. 
 
 [The Delian Tomb](https://github.com/World-Smiths/the-delian-tomb) by [World Smiths](https://world-smiths.github.io/page/).
-
-The software component of this world is distributed under the [MIT](./LICENSE) license.

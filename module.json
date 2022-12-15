@@ -1,5 +1,5 @@
 {
-  "name": "the-delian-tomb-module",
+  "name": "the-delian-tomb",
   "title": "The Delian Tomb",
   "description": "<p>The Delian Tomb is a low-level one-shot introduction adventure featuring a tomb of an ancient order of knights infested by goblins.</p>\n<p><em>This adventure was originally outlined in <a href=\"https://www.youtube.com/watch?v=zTD2RZz6mlo\">Matt Colville's first “Running the Game” video</a>.</em></p>",
   "author": "World Smiths",
@@ -9,20 +9,21 @@
       "url": "https://world-smiths.github.io/page"
     }
   ],
-  "url": "This is auto replaced",
+  "url": "https://github.com/world-smiths/the-delian-tomb",
   "license": "https://raw.githubusercontent.com/World-Smiths/the-delian-tomb/main/LICENSE.md",
   "readme": "https://raw.githubusercontent.com/World-Smiths/the-delian-tomb/main/README.md",
-  "bugs": "https://discord.gg/2YCFD8fxG7",
+  "bugs": "https://github.com/world-smiths/the-sky-isles/issues",
   "changelog": "https://raw.githubusercontent.com/World-Smiths/the-delian-tomb/main/CHANGELOG.md",
   "flags": {
     "allowBugReporter": true
   },
-  "version": "This is auto replaced",
-  "minimumCoreVersion": "0.7.10",
-  "compatibleCoreVersion": 10,
+  "version": "1.0.0",
+  "compatibility": {
+    "verified": "10.290"
+  },
   "scripts": [],
   "esmodules": [
-    "scripts/module.js"
+    "scripts/ws.js"
   ],
   "styles": [
     "styles/ws.css"
@@ -30,63 +31,27 @@
   "languages": [],
   "packs": [
     {
-      "name": "actors",
       "label": "The Delian Tomb",
-      "path": "packs/actors.db",
-      "entity": "Actor",
-      "type": "Actor",
-      "system": "dnd5e"
-    },
-    {
-      "name": "items",
-      "label": "The Delian Tomb",
-      "path": "packs/items.db",
-      "entity": "Item",
-      "type": "Item",
-      "system": "dnd5e"
-    },
-    {
-      "name": "journal",
-      "label": "The Delian Tomb",
-      "path": "packs/journal.db",
-      "entity": "JournalEntry",
-      "type": "JournalEntry",
-      "system": "dnd5e"
-    },
-    {
-      "name": "playlists",
-      "label": "The Delian Tomb",
-      "path": "packs/playlists.db",
-      "entity": "Playlist",
-      "type:": "Playlist",
-      "system": "dnd5e"
-    },
-    {
-      "name": "tables",
-      "label": "The Delian Tomb",
-      "path": "packs/tables.db",
-      "entity": "RollTable",
-      "type": "RollTable",
-      "system": "dnd5e"
-    },
-    {
-      "name": "scenes",
-      "label": "The Delian Tomb",
-      "path": "packs/scenes.db",
-      "entity": "Scene",
-      "type": "Scene",
+      "type": "Adventure",
+      "name": "ws",
+      "path": "packs/ws.db",
       "system": "dnd5e"
     }
   ],
-  "system": "dnd5e",
-  "dependencies": [
-    {
-      "name": "scene-packer",
-      "type": "module"
-    }
-  ],
-  "manifest": "This is auto replaced",
-  "download": "This is auto replaced",
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "2.0.0-alpha2",
+          "verified": "2.0.3"
+        }
+      }
+    ]
+  },
+  "manifest": "https://github.com/world-smiths/the-delian-tomb/releases/latest/download/module.json",
+  "download": "https://github.com/world-smiths/the-delian-tomb/releases/latest/download/module.zip",
   "manifestPlusVersion": "1.2.0",
   "media": [
     {
