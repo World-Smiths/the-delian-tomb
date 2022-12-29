@@ -1,64 +1,64 @@
-.aep.sheet.journal-entry {
+.the-delian-tomb.sheet.journal-entry {
   overflow: hidden;
 }
-.aep.sheet.journal-entry .window-title {
+.the-delian-tomb.sheet.journal-entry .window-title {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.aep.sheet.journal-entry .collapse-toggle::before {
+.the-delian-tomb.sheet.journal-entry .collapse-toggle::before {
   color: white;
   mix-blend-mode: difference;
 }
-.aep.sheet.journal-entry .journal-entry-content {
+.the-delian-tomb.sheet.journal-entry .journal-entry-content {
   border: none;
   border-radius: 0;
 }
-.aep.sheet.journal-entry .journal-entry-content .journal-header {
+.the-delian-tomb.sheet.journal-entry .journal-entry-content .journal-header {
   display: none;
 }
-.aep.sheet.journal-entry .journal-entry-content .journal-entry-pages {
+.the-delian-tomb.sheet.journal-entry .journal-entry-content .journal-entry-pages {
   margin: 0;
 }
-.aep.sheet.journal-entry .journal-entry-content .journal-entry-pages .scrollable {
+.the-delian-tomb.sheet.journal-entry .journal-entry-content .journal-entry-pages .scrollable {
   overflow: hidden overlay;
   scroll-behavior: smooth;
 }
-.aep.sheet.journal-entry .journal-entry-content .journal-entry-pages .scrollable .journal-entry-page {
+.the-delian-tomb.sheet.journal-entry .journal-entry-content .journal-entry-pages .scrollable .journal-entry-page {
   --small-margin: 2rem;
   --large-margin: 5rem;
 }
-.aep.sheet.journal-entry .journal-entry-content .journal-entry-pages .scrollable .journal-entry-page + .journal-entry-page {
+.the-delian-tomb.sheet.journal-entry .journal-entry-content .journal-entry-pages .scrollable .journal-entry-page + .journal-entry-page {
   margin-top: var(--small-margin);
 }
-.aep.sheet.journal-entry .journal-entry-content .journal-entry-pages .scrollable .journal-entry-page.text {
+.the-delian-tomb.sheet.journal-entry .journal-entry-content .journal-entry-pages .scrollable .journal-entry-page.text {
   font-size: 1.125em;
   line-height: 1.5;
   letter-spacing: 0.05ch;
 }
-.aep.sheet.journal-entry .journal-entry-content .journal-entry-pages .scrollable .journal-entry-page.text > header, .aep.sheet.journal-entry .journal-entry-content .journal-entry-pages .scrollable .journal-entry-page.text > section {
+.the-delian-tomb.sheet.journal-entry .journal-entry-content .journal-entry-pages .scrollable .journal-entry-page.text > header, .the-delian-tomb.sheet.journal-entry .journal-entry-content .journal-entry-pages .scrollable .journal-entry-page.text > section {
   margin: var(--small-margin) var(--large-margin);
 }
-.aep.sheet.journal-entry .journal-entry-content .journal-entry-pages .scrollable .journal-entry-page.text * {
+.the-delian-tomb.sheet.journal-entry .journal-entry-content .journal-entry-pages .scrollable .journal-entry-page.text * {
   -webkit-user-select: text;
      -moz-user-select: text;
       -ms-user-select: text;
           user-select: text;
 }
-.aep.sheet.journal-entry .journal-entry-content .journal-entry-pages .scrollable .journal-entry-page:hover .editor-edit {
+.the-delian-tomb.sheet.journal-entry .journal-entry-content .journal-entry-pages .scrollable .journal-entry-page:hover .editor-edit {
   display: none;
 }
-.aep.sheet.journal-entry .journal-entry-content .journal-entry-pages .scrollable .journal-entry-page:first-child figure {
+.the-delian-tomb.sheet.journal-entry .journal-entry-content .journal-entry-pages .scrollable .journal-entry-page:first-child figure {
   margin: calc(-1 * var(--small-margin)) calc(-1 * var(--large-margin)) var(--small-margin) calc(-1 * var(--large-margin));
 }
-.aep.sheet.journal-entry .journal-entry-content .journal-entry-pages .scrollable .journal-entry-page:first-child figure img {
+.the-delian-tomb.sheet.journal-entry .journal-entry-content .journal-entry-pages .scrollable .journal-entry-page:first-child figure img {
   -webkit-mask-image: linear-gradient(to bottom, black, 75%, transparent);
           mask-image: linear-gradient(to bottom, black, 75%, transparent);
 }
-.aep.sheet.journal-entry .journal-entry-content .journal-entry-pages .scrollable .journal-entry-page figure {
+.the-delian-tomb.sheet.journal-entry .journal-entry-content .journal-entry-pages .scrollable .journal-entry-page figure {
   margin: 0 calc(-1 * var(--large-margin)) var(--small-margin) calc(-1 * var(--large-margin));
 }
-.aep.sheet.journal-entry .journal-entry-content .journal-entry-pages .scrollable .journal-entry-page figure img {
+.the-delian-tomb.sheet.journal-entry .journal-entry-content .journal-entry-pages .scrollable .journal-entry-page figure img {
   border: none;
   border-radius: 0;
   -webkit-mask-image: linear-gradient(to bottom, transparent, 10%, black, 75%, transparent);
@@ -69,7 +69,7 @@
   width: 100%;
   min-width: calc(100% + 1px);
 }
-.aep.sheet.journal-entry .journal-entry-content .journal-entry-pages .scrollable .journal-entry-page figure figcaption {
+.the-delian-tomb.sheet.journal-entry .journal-entry-content .journal-entry-pages .scrollable .journal-entry-page figure figcaption {
   opacity: 0;
   transition: 250ms 500ms;
   color: white;
@@ -83,19 +83,22 @@
   width: fit-content;
   margin: 0 auto;
 }
-.aep.sheet.journal-entry .journal-entry-content .journal-entry-pages .scrollable .journal-entry-page figure:hover figcaption {
+.the-delian-tomb.sheet.journal-entry .journal-entry-content .journal-entry-pages .scrollable .journal-entry-page figure:hover figcaption {
   opacity: 1;
 }
-.aep.sheet.journal-entry .journal-entry-content .journal-entry-pages .scrollable .journal-entry-page .ws-block {
+.the-delian-tomb.sheet.journal-entry .journal-entry-content .journal-entry-pages .scrollable .journal-entry-page .ws-block {
   margin: 1rem -1rem;
 }
-.aep.sheet.journal-entry .journal-entry-content .journal-entry-pages .scrollable .journal-entry-page .ws-block.ws-right {
+.the-delian-tomb.sheet.journal-entry .journal-entry-content .journal-entry-pages .scrollable .journal-entry-page .ws-block .ws-block {
+  margin: 1rem 0.5rem;
+}
+.the-delian-tomb.sheet.journal-entry .journal-entry-content .journal-entry-pages .scrollable .journal-entry-page .ws-block.ws-right {
   margin-left: 1rem;
 }
-.aep.sheet.journal-entry .journal-entry-content .journal-entry-pages .scrollable .journal-entry-page .ws-block.ws-left {
+.the-delian-tomb.sheet.journal-entry .journal-entry-content .journal-entry-pages .scrollable .journal-entry-page .ws-block.ws-left {
   margin-right: 1rem;
 }
-.aep .ws-block {
+.the-delian-tomb .ws-block {
   border-radius: 5px;
   padding: 1rem;
   margin: 1rem;
@@ -103,64 +106,67 @@
   color: white;
   background-repeat: repeat;
 }
-.aep .ws-block h3 {
+.the-delian-tomb .ws-block h3 {
   border: none;
 }
-.aep .ws-block :is(.content-link, .inline-roll) i {
+.the-delian-tomb .ws-block a {
   color: white;
 }
-.aep .ws-block.ws-sidebar {
+.the-delian-tomb .ws-block :is(.content-link, .inline-roll) i {
+  color: white;
+}
+.the-delian-tomb .ws-block.ws-sidebar {
   width: 45%;
   font-size: 0.9rem;
   background-image: linear-gradient(0, hsla(350deg, 100%, 40%, 0.5), hsla(275deg, 100%, 40%, 0.5)), url(../../../ui/denim.png);
 }
-.aep .ws-block.ws-sidebar.ws-right {
+.the-delian-tomb .ws-block.ws-sidebar.ws-right {
   float: right;
 }
-.aep .ws-block.ws-sidebar.ws-left {
+.the-delian-tomb .ws-block.ws-sidebar.ws-left {
   float: left;
 }
-.aep .ws-block.ws-highlight {
+.the-delian-tomb .ws-block.ws-highlight {
   background-image: linear-gradient(0, hsla(40deg, 100%, 60%, 0.5), hsla(0deg, 100%, 60%, 0.5)), url(../../../ui/parchment-white.jpg);
   color: black;
 }
-.aep .ws-block.ws-skill-challenge {
+.the-delian-tomb .ws-block.ws-skill-challenge {
   background-color: hsla(150deg, 50%, 50%, 0.1);
   background-image: linear-gradient(0, hsla(120deg, 100%, 60%, 0.5), hsla(160deg, 100%, 60%, 0.5)), url(../../../ui/parchment-white.jpg);
   color: black;
 }
-.aep .ws-block.ws-box {
+.the-delian-tomb .ws-block.ws-box {
   background-image: url(../../../ui/denim.png);
 }
-.aep .ws-block.ws-note {
+.the-delian-tomb .ws-block.ws-note {
   background-image: linear-gradient(0, hsla(250deg, 100%, 30%, 0.5), hsla(175deg, 100%, 30%, 0.5)), url(../../../ui/denim.png);
   display: flex;
   gap: 1em;
 }
-.aep .ws-block.ws-note > .contents {
+.the-delian-tomb .ws-block.ws-note > .contents {
   flex: 90%;
   font-size: 0.9rem;
   line-height: 1.15;
 }
-.aep .ws-block.ws-note img {
+.the-delian-tomb .ws-block.ws-note img {
   border: none;
 }
-.aep :is(h1, h2, h3, h4, h5, h6) {
+.the-delian-tomb :is(h1, h2, h3, h4, h5, h6) {
   display: flow-root;
 }
-.aep table :is(th, td) {
+.the-delian-tomb table :is(th, td) {
   padding: 1ch;
   border: solid 1px rgba(0, 0, 0, 0.5);
 }
-.aep table :is(.content-link, .inline-roll) {
+.the-delian-tomb table :is(.content-link, .inline-roll) {
   white-space: normal;
   -webkit-box-decoration-break: clone;
           box-decoration-break: clone;
 }
-.aep blockquote {
+.the-delian-tomb blockquote {
   margin-bottom: 1rem;
 }
-.aep :is(.content-link, .inline-roll) {
+.the-delian-tomb :is(.content-link, .inline-roll) {
   --normal: 25%;
   --hover: 50%;
   border: none;
@@ -168,14 +174,14 @@
   margin: -0.25ch 0;
   background: linear-gradient(to bottom, hsl(175deg, 71%, 40%, var(--normal)), hsl(245deg, 95%, 67%, var(--normal)));
 }
-.aep :is(.content-link, .inline-roll):hover {
+.the-delian-tomb :is(.content-link, .inline-roll):hover {
   text-shadow: none;
   background: linear-gradient(to bottom, hsl(175deg, 71%, 40%, var(--hover)), hsl(245deg, 95%, 67%, var(--hover)));
 }
-.aep li > :is(.content-link, .inline-roll) {
+.the-delian-tomb li > :is(.content-link, .inline-roll) {
   line-height: 1.75;
 }
-.aep .editor-content {
+.the-delian-tomb .editor-content {
   font-size: 1.125em;
   line-height: 1.5;
   letter-spacing: 0.05ch;
